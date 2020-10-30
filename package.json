@@ -1,6 +1,6 @@
 {
   "name": "@mhio/node-logger-http",
-  "version": "0.3.0-0",
+  "version": "0.3.0",
   "main": "lib/MhioLoggerHttp.js",
   "license": "MIT",
   "author": "mhio",
