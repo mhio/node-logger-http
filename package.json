@@ -1,6 +1,6 @@
 {
   "name": "@mhio/node-logger-http",
-  "version": "0.1.2",
+  "version": "0.2.0-0",
   "main": "lib/MhioLoggerHttp.js",
   "license": "MIT",
   "author": "mhio",
@@ -31,7 +31,7 @@
     "release:patch": "set -uex; git pull; rm -rf node_modules; yarn; yarn run test:coverage; npm version patch; git push; npm publish --access public; git push --tags"
   },
   "dependencies": {
-    "@mhio/node-logger": "^0.1.0",
+    "@mhio/node-logger": "~0.2.0",
     "pino-http": "^4.4.0"
   },
   "devDependencies": {
