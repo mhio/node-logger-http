@@ -31,7 +31,7 @@
     "release:patch": "set -uex; git pull; rm -rf node_modules; yarn; yarn run test:coverage; npm version patch; git push; npm publish --access public; git push --tags"
   },
   "dependencies": {
-    "@mhio/node-logger": "~0.2.0",
+    "@mhio/node-logger": "~0.4.0",
     "pino-http": "5.3.0"
   },
   "devDependencies": {
