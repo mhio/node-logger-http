@@ -1229,10 +1229,10 @@ minimist@^1.2.5:
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
-mocha@8.2.0:
-  version "8.2.0"
-  resolved "https://registry.npmjs.org/mocha/-/mocha-8.2.0.tgz#f8aa79110b4b5a6580c65d4dd8083c425282624e"
-  integrity sha512-lEWEMq2LMfNJMKeuEwb5UELi+OgFDollXaytR5ggQcHpzG3NP/R7rvixAvF+9/lLsTWhWG+4yD2M70GsM06nxw==
+mocha@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.npmjs.org/mocha/-/mocha-8.2.1.tgz#f2fa68817ed0e53343d989df65ccd358bc3a4b39"
+  integrity sha512-cuLBVfyFfFqbNR0uUKbDGXKGk+UDFe6aR4os78XIrMQpZl/nv7JYHcvP5MFIAb374b2zFXsdgEGwmzMtP0Xg8w==
   dependencies:
     "@ungap/promise-all-settled" "1.1.2"
     ansi-colors "4.1.1"
@@ -1829,10 +1829,10 @@ superagent@6.1.0:
     readable-stream "^3.6.0"
     semver "^7.3.2"
 
-supertest@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/supertest/-/supertest-6.0.0.tgz#8371509fadd616217b42ff3d3be7cc0267baea1b"
-  integrity sha512-7+Skilm7kvUZIaKfALPgjS3i8zYs11zvEudAeYdqJZL3f+SGGFV4qQkkTVkYcs+zbE6de47HP8o0a0hy1BFlMA==
+supertest@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/supertest/-/supertest-6.0.1.tgz#f6b54370de85c45d6557192c8d7df604ca2c9e18"
+  integrity sha512-8yDNdm+bbAN/jeDdXsRipbq9qMpVF7wRsbwLgsANHqdjPsCoecmlTuqEcLQMGpmojFBhxayZ0ckXmLXYq7e+0g==
   dependencies:
     methods "1.1.2"
     superagent "6.1.0"
